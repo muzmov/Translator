@@ -8,7 +8,7 @@ import java.net.URLEncoder;
 
 public class Main {
     private final static String API_KEY = "trnsl.1.1.20170807T101130Z.f157a372e67fc266.b4b186c62a303bcb970c743897289126e4ffea2a";
-    private final static String URL = "https://translate.yandex.net/api/v1.5/tr/translate?key=%s&text=%s&lang=en-rum";
+    private final static String URL = "https://translate.yandex.net/api/v1.5/tr/translate?key=%s&text=%s&lang=en-ru";
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
